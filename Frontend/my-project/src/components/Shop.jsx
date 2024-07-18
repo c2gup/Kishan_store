@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Navbar = () => {
+const Shop = () => {
     return (
         <div>
-            i m in navbar page
+             what u want to shop
         </div>
     );
 }
 
-export default Navbar;
+export default Shop;

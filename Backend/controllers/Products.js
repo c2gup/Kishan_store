@@ -106,7 +106,6 @@ exports.getAllproducts = async (req,res) => {
                 selar:true,
                 ratingAndReviews:true,
             }
-
         )
         .populate("seler")
         .exec();

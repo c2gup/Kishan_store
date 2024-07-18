@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Navbar = () => {
+const News = () => {
     return (
         <div>
-            i m in navbar page
+            i sm inside news
         </div>
     );
 }
 
-export default Navbar;
+export default News;

@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+ /* ul{ 
+  max-width: 80%;
+padding-left: 10%;
+display: flex;
+justify-content: space-evenly;
+} */
