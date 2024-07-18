@@ -23,6 +23,8 @@ const Home = () => {
         <img src={HomeBanner} className=' ' />
       </div>
 
+      <h1 className='text-black bg-red-700 text-5xl' >Hello Frome anupam side , Only for check talwind </h1>
+
     
       {/* <IconBtn
         text="Explore "
