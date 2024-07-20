@@ -1,7 +1,7 @@
 import { ArrowLeft } from 'lucide-react';
 import React from 'react';
 
-import Footer from './Footer';
+
 
 const ErrorFour = () => {
   return (
@@ -33,7 +33,7 @@ const ErrorFour = () => {
 
       {/* Footer */}
      
-      <Footer/>
+     
     </div>
   );
 }

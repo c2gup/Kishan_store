@@ -2,7 +2,7 @@
 
 import React from 'react'
 import FooterBanner from './FooterBanner';
-import Footer from './Footer';
+
 import image1 from '../assets/Contact/Banner.png'
 import photo_bs from '../assets/Contact/Photo_bg.jpg'
 import photo from '../assets/Contact/Photo.jpg'
@@ -179,7 +179,7 @@ const Contact = () => {
       <hr className="mt-6" />
       {/* footer */}
       <FooterBanner/>
-      <Footer/>
+     
     </div>
 
 
