@@ -2,19 +2,19 @@ import React from 'react';
 import HomeAboutPic from "../../assets/HomeAboutPic.png"
 const HomeAboutUS = () => {
     return (
-        <div className='flex '>
+        <div className='flex max-w-[1080px] items-center justify-center mx-auto'>
 
             <div className=''>
                 <img src={HomeAboutPic} alt="" />
             </div>
 
 
-            <div>
+            <div className='max-w-[50%]'>
                 <div>
-                    <p className=''>About Us</p>
+                    <p className='font-sans text-cyan-500'>About Us</p>
                 </div>
                 <div>
-                    <p className=''>we beleve in working acceredited Farmer</p>
+                    <p className='text-blue-900 font-bold text-[40px]'>we beleve in working Acceredited Farmer</p>
                 </div>
                 <div>
                     Farmers are the backbone of our society. They are the ones who provide us all the food that we eat. As a result, the entire population of the country depends upon farmers.
@@ -24,8 +24,8 @@ const HomeAboutUS = () => {
 
                 <div>
                     <img />
-                    <div>
-                        <p>
+                    <div >
+                        <p className='font-bold text-blue-900'>
                             Organic Foods Only
                         </p>
                         <p>
@@ -38,8 +38,8 @@ const HomeAboutUS = () => {
 
                 <div>
                     <img />
-                    <div>
-                        <p>
+                    <div className=''>
+                        <p className='font-bold text-blue-900'>
                             Quality Standard
                         </p>
                         <p>
@@ -49,10 +49,10 @@ const HomeAboutUS = () => {
 
                 </div>
 
-                <div>
+                <div className='py-6'>
                     <button
                         type="button"
-                        class="rounded-full bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                        class="rounded-full bg-slate-800 px-8 py-4 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                     >
                         Shop Now
                     </button>

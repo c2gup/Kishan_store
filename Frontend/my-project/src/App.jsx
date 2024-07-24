@@ -13,10 +13,10 @@ export default function App() {
     <div className="">
 
       <div className="">
-     <nav className=" ">
-         <ul>
+     <nav class=" bg-slate-950 h-11 rounded-md flex ">
+         <ul class="  w-[1080px]  text-white mx-auto flex items-center justify-between ">
            
-            <li className="text-white">
+            <li className="">
                 <NavLink to="/">Home</NavLink>
             </li>
             <li>
