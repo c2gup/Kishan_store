@@ -10,9 +10,10 @@ function About() {
 
       <div>
       <img src={Banner} alt="Banner" />
+
+     
     </div>
-
-
+   
     {/* hero secton */}
 
     <div className="relative w-full bg-white">

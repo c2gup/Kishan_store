@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Navbar = () => {
+const Pages = () => {
     return (
         <div>
-            i m in navbar page
+            i am inside pages
         </div>
     );
 }
 
-export default Navbar;
+export default Pages;

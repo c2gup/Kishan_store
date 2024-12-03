@@ -121,5 +121,5 @@ export function FooterFour() {
 }
 
 
-export default FooterFour
+export default FooterFour;
 

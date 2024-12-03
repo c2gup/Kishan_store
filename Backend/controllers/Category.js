@@ -23,7 +23,6 @@ exports.createCategory = async (req,res) => {
 			message: "Categorys Created Successfully",
 		});
 
-
     }catch(error){
         console.log(error);
         return res.status(500).json({
